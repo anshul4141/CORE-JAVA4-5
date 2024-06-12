@@ -4,15 +4,23 @@ public class Arrays {
 
 	public static void main(String args[]) {
 
-		int[] i = { 2, 5, 6, 8 };
+		int[] i = { 2, 5, 6, 5 };
 
-		System.out.println(i[0] + " " + i[1]);
+		int a = 5;
 
-		for (int a : i) {
+		int temp = -1;
 
-			System.out.println(a);
+		for (int j = 0; j < i.length; j++) {
+
+			if (a == i[j]) {
+
+				temp = j;
+
+			}
 
 		}
+
+		System.out.println(temp);
 
 	}
 

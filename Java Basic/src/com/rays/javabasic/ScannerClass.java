@@ -10,10 +10,12 @@ public class ScannerClass {
 
 		System.out.println("Enter any value");
 
-//		int i;
-//
+		int i;
+		
+//		String
+
 //		i = sc.nextInt();
-//		
+		
 //		System.out.println( "int value = " + i);
 
 //		double d;
@@ -22,11 +24,11 @@ public class ScannerClass {
 //		
 //		System.out.println( "double value = " + d);
 
-		String name;
-
-		name = sc.next();
-
-		System.out.println("String value = " + name);
+//		String name;
+//
+//		name = sc.next();
+//
+//		System.out.println("String value = " + name);
 
 	}
 
