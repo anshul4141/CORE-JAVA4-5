@@ -25,8 +25,6 @@ public class DateFormate {
 		
 		System.out.println("String to date = " + d1);
 		
-		
-		
 	}
 
 }
