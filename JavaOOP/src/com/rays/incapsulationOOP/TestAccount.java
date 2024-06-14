@@ -16,7 +16,7 @@ public class TestAccount {
 		
 		System.out.println("after deposite amount = " + a.getAmmount());
 		
-		a.withdraw(2000.0);
+		a.withdraw(200.0);
 		
 		System.out.println("after withdraw amount = " + a.getAmmount());
 		

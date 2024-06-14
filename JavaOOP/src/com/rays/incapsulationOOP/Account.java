@@ -38,17 +38,7 @@ public class Account {
 
 	public double withdraw(double withdrawAmount) {
 
-		if (withdrawAmount > ammount) {
-
-			System.out.println("insufficient balance");
-
-		} else {
-
 			return ammount = ammount - withdrawAmount;
-
-		}
-
-		return ammount;
 
 	}
 
