@@ -1,19 +1,16 @@
 package com.rays.incapsulationOOP;
 
-public class TestPerson {
+public class TestPerson2 {
 
 	public static void main(String[] args) {
 
-		Person p = new Person();
+		Person2 p = new Person2("Suraj", 20, "Indore");
 
-		p.setName("Aryan", "Shrivastav");
-		p.setAge(20);
-		p.setAddress("Indore");
-		
-		
-		System.out.println("Name = " + p.getName());
+		System.out.println("name =" + p.getName());
 		System.out.println("age = " + p.getAge());
 		System.out.println("address = " + p.getAddress());
+
+		Person2 p2 = new Person2();
 
 	}
 

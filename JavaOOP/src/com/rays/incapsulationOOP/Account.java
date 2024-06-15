@@ -2,9 +2,9 @@ package com.rays.incapsulationOOP;
 
 public class Account {
 
-	String accountNo;
-	double ammount;
-	String type;
+	private String accountNo;
+	private double amount;
+	private String type;
 
 	public String getAccountNo() {
 		return accountNo;
@@ -14,12 +14,12 @@ public class Account {
 		this.accountNo = accountNo;
 	}
 
-	public double getAmmount() {
-		return ammount;
+	public double getAmount() {
+		return amount;
 	}
 
-	public void setAmmount(double ammount) {
-		this.ammount = ammount;
+	public void setAmount(double amount) {
+		this.amount = amount;
 	}
 
 	public String getType() {
@@ -32,13 +32,13 @@ public class Account {
 
 	public double deposite(double depositeAmount) {
 
-		return ammount = ammount + depositeAmount;
+		return amount = amount + depositeAmount;
 
 	}
 
 	public double withdraw(double withdrawAmount) {
 
-			return ammount = ammount - withdrawAmount;
+		return amount = amount - withdrawAmount;
 
 	}
 

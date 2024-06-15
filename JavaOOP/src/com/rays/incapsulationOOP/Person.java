@@ -2,14 +2,17 @@ package com.rays.incapsulationOOP;
 
 public class Person {
 
-	String firstName = "";
-	String lastName = "";
-	int age = 0;
-	String address = "";
-
+	private String firstName = "";
+	private String lastName = "";
+	private int age = 0;
+	private String address = "";
+	
+	public Person() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public String getName() {
-		return firstName +" "+ lastName;
+		return firstName + " " + lastName;
 	}
 
 	public void setName(String name1, String name2) {
