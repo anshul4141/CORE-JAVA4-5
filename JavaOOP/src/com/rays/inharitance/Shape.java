@@ -5,6 +5,8 @@ public class Shape {
 	private String color;
 	private int borderWidth;
 
+	public static double PI = 3.14;
+
 	public String getColor() {
 		return color;
 	}
@@ -19,6 +21,10 @@ public class Shape {
 
 	public void setBorderWidth(int borderWidth) {
 		this.borderWidth = borderWidth;
+	}
+
+	public double area() {
+		return 0.0;
 	}
 
 }
