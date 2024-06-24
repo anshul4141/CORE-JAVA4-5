@@ -7,11 +7,9 @@ public class TestException {
 		// Example of ArithmeticException..
 		int a = 5;
 
-		try {
+		
 			System.out.println(a / 0);
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
+		
 
 		System.out.println("++++++++++++++");
 
