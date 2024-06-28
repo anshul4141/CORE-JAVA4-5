@@ -19,6 +19,7 @@ public class TestIterator {
 		System.out.println(c);
 
 		Iterator it = c.iterator();
+		
 
 		while (it.hasNext()) {
 

@@ -1,10 +1,11 @@
 package com.rays.collection;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
-public class ListNormalIterator {
+public class RemoveDuplicateFromList {
 
 	public static void main(String[] args) {
 
@@ -18,17 +19,9 @@ public class ListNormalIterator {
 
 		System.out.println(list);
 
-		Iterator it = list.iterator();
-		
-		list.add(66);
+		Set s = new HashSet(list);
 
-		while (it.hasNext()) {
-
-			Object o = it.next();
-
-			System.out.println(o);
-
-		}
+		System.out.println(s);
 
 	}
 

@@ -1,10 +1,9 @@
 package com.rays.collection;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
-public class ListNormalIterator {
+public class PrintMiddileOfList {
 
 	public static void main(String[] args) {
 
@@ -14,21 +13,13 @@ public class ListNormalIterator {
 		list.add('A');
 		list.add("KGF");
 		list.add(null);
-		list.add("KGF");
-
-		System.out.println(list);
-
-		Iterator it = list.iterator();
-		
 		list.add(66);
+		list.add(55);
+		list.add(77);
 
-		while (it.hasNext()) {
+		System.out.println(list.size());
 
-			Object o = it.next();
-
-			System.out.println(o);
-
-		}
+		System.out.println(list.get((list.size() - 1) / 2));
 
 	}
 
