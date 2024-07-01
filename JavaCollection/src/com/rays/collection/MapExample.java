@@ -14,7 +14,9 @@ public class MapExample {
 		map.put('A', 42);
 		map.put(42, 'A');
 		map.put("Movie", "KGF");
-		map.put("Movie", "KGF");
+		map.put("Movie1", "KGF");
+
+		System.out.println(map.get(42));
 
 		System.out.println(map.containsKey("Movie"));
 
@@ -26,7 +28,7 @@ public class MapExample {
 
 		for (Object object : c) {
 
-			System.out.println(object);
+			System.out.println("Values = " + object);
 
 		}
 
@@ -34,7 +36,7 @@ public class MapExample {
 
 		for (Object object : s) {
 
-			System.out.println(object);
+			System.out.println("key and value = " + object);
 
 		}
 
