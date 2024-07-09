@@ -7,7 +7,7 @@ public class WriteTextFile {
 
 	public static void main(String[] args) throws IOException {
 
-		FileWriter file = new FileWriter("D:\\FirstTest1.txt");
+		FileWriter file = new FileWriter("D:\\FirstTest1.txt", true);
 
 		char[] cArray = { 'h', 'i' };
 
