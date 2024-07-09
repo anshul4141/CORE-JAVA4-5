@@ -14,7 +14,7 @@ public class FindCorrectEmail {
 
 		BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\NewEmail.txt"));
 
-		String emailreg = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
+		String emailreg = "^[6-9][0-9]{9}$";
 
 		String email = br.readLine();
 
