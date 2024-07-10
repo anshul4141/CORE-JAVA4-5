@@ -24,10 +24,10 @@ public class ReadWritePrimitiveData {
 
 		DataInputStream in = new DataInputStream(new FileInputStream("D://Primitive.txt"));
 
-		System.out.println(in.readBoolean());
 		System.out.println(in.readInt());
-		System.out.println(in.readShort());
+		System.out.println(in.readBoolean());
 		System.out.println(in.readDouble());
+		System.out.println(in.readShort());
 
 	}
 
