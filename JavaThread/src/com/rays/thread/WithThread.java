@@ -23,11 +23,19 @@ public class WithThread extends Thread {
 
 	public static void main(String[] args) {
 
-		WithThread t = new WithThread("xyz");
-		WithThread t1 = new WithThread("abc");
+		WithThread t1 = new WithThread("xyz");
+		WithThread t2 = new WithThread("abc");
 
-		t.start();
 		t1.start();
+
+		try {
+			t1.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		t2.start();
 
 	}
 
