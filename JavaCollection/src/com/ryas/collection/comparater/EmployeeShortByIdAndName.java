@@ -1,4 +1,4 @@
-package com.rays.collectionProgram.Comparater;
+package com.ryas.collection.comparater;
 
 import java.util.Comparator;
 

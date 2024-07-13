@@ -41,7 +41,7 @@ public class Student2 implements Externalizable {
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 
 		name = (String) in.readObject();
-		// id = in.readInt();
+		//id = in.readInt();
 
 	}
 

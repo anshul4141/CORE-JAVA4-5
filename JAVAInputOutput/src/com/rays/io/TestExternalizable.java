@@ -7,6 +7,7 @@ import java.io.ObjectOutputStream;
 
 public class TestExternalizable {
 	public static void main(String[] args) throws Exception {
+
 		Student2 s = new Student2(1, "rays");
 
 		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("E:\\student.txt"));

@@ -9,8 +9,8 @@ public class TestGenric {
 
 		List<Integer> list = new ArrayList<Integer>();
 
+		list.add(9);
 		list.add(5);
-		list.add(6);
 
 		System.out.println(list);
 
